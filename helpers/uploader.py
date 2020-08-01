@@ -47,7 +47,7 @@ class Uploader:
                 title = self.title if self.title else os.path.basename(self.file),
                 description = 'Uploaded to youtube with https://t.me/RedFoc',
                 category = 27,
-                privacyStatus = 'private'
+                privacyStatus = 'Public'
             )
 
             youtube = Youtube(google)
